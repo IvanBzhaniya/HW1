@@ -22,5 +22,40 @@ else
 //программа работает, но непонятно как быть если на входе числа одинаковые
 
 
-*/
 
+
+Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+
+Console.WriteLine("Enter number1: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter number2: ");
+int number2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter number3: ");
+int number3 = Convert.ToInt32(Console.ReadLine());
+
+int maximum;
+
+
+if (number1 > number2)
+{
+    maximum = number1;
+}
+else
+{
+    maximum = number2;
+}
+
+if (maximum > number3)
+{
+    Console.WriteLine("max = " + maximum);
+}
+else
+{
+    Console.WriteLine("max = " + number3);
+}
+
+
+*/
