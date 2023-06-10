@@ -58,4 +58,20 @@ else
 }
 
 
+Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 */
+
+Console.WriteLine("Enter number: ");
+int number  = Convert.ToInt32(Console.ReadLine());
+int ostatok;
+ostatok = number % 2;
+
+if (ostatok != 0)
+{
+    Console.WriteLine("нечетное");
+}
+else
+{
+    Console.WriteLine("четное");
+}
+
